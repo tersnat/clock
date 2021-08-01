@@ -33,7 +33,7 @@
     --z-tooltip: 10;
   }
   
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 968px) {
     :root {
       --biggest-font-size: 3.5rem;
       --small-font-size: .875rem;
@@ -77,7 +77,7 @@
   }
   
   /*=============== BASE ===============*/
-  * {
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -147,28 +147,28 @@
   }
   
   .clock__twelve {
-    top: 1.50rem;
+    top: 1.25rem;
     left: 50%;
   }
   
   .clock__three {
     top: 50%;
-    right: 1rem;
+    right: .75rem;
   }
   
   .clock__six {
-    bottom: 1.50rem;
+    bottom: 1.25rem;
     left: 50%;
   }
   
   .clock__nine {
-    left: 1rem;
+    left: .75rem;
     top: 50%;
   }
   
   .clock__rounder {
-    width: 0.75rem;
-    height: 0.75rem;
+    width: .75rem;
+    height: .75rem;
     background-color: var(--first-color);
     border-radius: 50%;
     border: 2px solid var(--body-color);
@@ -199,8 +199,8 @@
   }
   
   .clock__minutes {
-    width: 130px;
-    height: 1px;
+    width: 136px;
+    height: 136px;
   }
   
   .clock__minutes::before {
@@ -214,8 +214,8 @@
   }
   
   .clock__seconds {
-    width: 125px;
-    height: 125px;
+    width: 130px;
+    height: 130px;
   }
   
   .clock__seconds::before {
